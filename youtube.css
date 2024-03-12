@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+}
+ 
+.logo{
+	display: flex;
+	justify-content: flex-start;
+	 
+}
+.logo #me  {
+	 margin-bottom: 20px;
+
+}
+.logo #me1{
+	margin-bottom: 20px;
+}
+ 
+ header{
+ 	display: flex;
+ 	justify-content: space-between;
+
+
+ }
+ input{
+ 	margin-top: 20px;
+ 	padding: 5px 80px;
+ 	border-radius: 15px;
+ }
+ .icon{
+ 	display: flex;
+ 	margin-top: 20px;
+ 	margin-right:50px;
+ }
+ .i12{
+ 	margin: 0px 10px;
+ }
+ .home{
+ 	text-decoration: none;
+ 	padding: 0px 5px;
+  
+ }
+ 
+ .nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .nav-link {
+   display: flex;
+   align-items: center;
+   padding: 12px 25px;
+ }
+ 
+.nav-link span {
+   margin-left: 15px;
+ }
+ aside{
+ 	height: 80vh;
+ 	width: 200px;
+ 	overflow-y: auto;
+ }
+ aside a:hover{
+ 	transform: translateX(25px);
+ 	transition: all 1s;
+ }
+ main{
+ 	display: flex;
+ }
+  
+ 
+ .mfunction a{
+ 	background-color: #ccc;
+ 	color: black;
+ 	padding: 7px 12px;
+ 	border-radius: 10px;
+ 
+ 	align-items: center;
+ 	flex-direction: row; 
+  
+  text-decoration: none;
+  margin-left: 10px;
+
+ }
+ #active{
+ 	background-color: black;
+ 	color: white;
+ }
+ section{
+ 	display:  grid;
+  grid-template-columns: auto auto auto;
+    grid-template-rows: : auto auto auto;
+  grid-gap: 10px;
+  margin-left: 20px;
+  margin-top:20px;
+ }
+  section img:hover{transform: scale(1.1);
+  }
+  .chota{
+    margin-left: 30px;
+  }

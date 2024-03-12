@@ -1,0 +1,42 @@
+ *{
+ 	margin: 0px;
+ }
+
+ aside{
+ 	 
+ 	height: 100vh;
+ 	width: 300px;
+ 	background-color: #3333;
+ }
+ .asidemain2{
+ 	margin-left: 170px;
+ }
+.main1{
+	display: flex;
+	padding: 15px 20px;
+ 
+}
+.main1 .asidemain1{
+	margin-left: 150px;
+	display: flex;
+ 	align-items: center;
+}
+ .asidemain{
+ 	display: flex;
+ 	align-items: center;
+
+ }
+ .jay{
+ 	background-color:white;
+ 	border-radius: 20px;
+ 	 
+ }
+ main{
+ 	display: flex;
+ }
+ .main12{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	width: 100%;
+
+ }
